@@ -18,13 +18,16 @@
 		11BD55C9191770FB002FDBC5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BD55C7191770FB002FDBC5 /* Main_iPad.storyboard */; };
 		11BD55CC191770FB002FDBC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BD55CB191770FB002FDBC5 /* ViewController.m */; };
 		11BD55CF191770FB002FDBC5 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BD55CE191770FB002FDBC5 /* MyScene.m */; };
-		11BD55D1191770FB002FDBC5 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BD55D0191770FB002FDBC5 /* Spaceship.png */; };
 		11BD55D3191770FB002FDBC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BD55D2191770FB002FDBC5 /* Images.xcassets */; };
 		11BD55DA191770FC002FDBC5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BD55D9191770FC002FDBC5 /* XCTest.framework */; };
 		11BD55DB191770FC002FDBC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BD55B0191770FB002FDBC5 /* Foundation.framework */; };
 		11BD55DC191770FC002FDBC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BD55B4191770FB002FDBC5 /* UIKit.framework */; };
 		11BD55E4191770FC002FDBC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11BD55E2191770FC002FDBC5 /* InfoPlist.strings */; };
 		11BD55E6191770FC002FDBC5 /* TicTactToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BD55E5191770FC002FDBC5 /* TicTactToeTests.m */; };
+		11BD55F8191787BF002FDBC5 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BD55F7191787BF002FDBC5 /* Board.m */; };
+		11BD55FB19178A81002FDBC5 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BD55FA19178A81002FDBC5 /* Coordinate.m */; };
+		11BD55FE19178C3F002FDBC5 /* TicTacToe.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BD55FD19178C3F002FDBC5 /* TicTacToe.m */; };
+		11BD560119178D4A002FDBC5 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BD560019178D4A002FDBC5 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +58,20 @@
 		11BD55CB191770FB002FDBC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		11BD55CD191770FB002FDBC5 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		11BD55CE191770FB002FDBC5 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		11BD55D0191770FB002FDBC5 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		11BD55D2191770FB002FDBC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		11BD55D8191770FC002FDBC5 /* TicTactToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTactToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11BD55D9191770FC002FDBC5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		11BD55E1191770FC002FDBC5 /* TicTactToeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicTactToeTests-Info.plist"; sourceTree = "<group>"; };
 		11BD55E3191770FC002FDBC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11BD55E5191770FC002FDBC5 /* TicTactToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTactToeTests.m; sourceTree = "<group>"; };
+		11BD55F6191787BF002FDBC5 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		11BD55F7191787BF002FDBC5 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		11BD55F919178A81002FDBC5 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		11BD55FA19178A81002FDBC5 /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
+		11BD55FC19178C3F002FDBC5 /* TicTacToe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToe.h; sourceTree = "<group>"; };
+		11BD55FD19178C3F002FDBC5 /* TicTacToe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToe.m; sourceTree = "<group>"; };
+		11BD55FF19178D4A002FDBC5 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		11BD560019178D4A002FDBC5 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +141,14 @@
 				11BD55CB191770FB002FDBC5 /* ViewController.m */,
 				11BD55CD191770FB002FDBC5 /* MyScene.h */,
 				11BD55CE191770FB002FDBC5 /* MyScene.m */,
-				11BD55D0191770FB002FDBC5 /* Spaceship.png */,
+				11BD55F6191787BF002FDBC5 /* Board.h */,
+				11BD55F7191787BF002FDBC5 /* Board.m */,
+				11BD55FF19178D4A002FDBC5 /* Player.h */,
+				11BD560019178D4A002FDBC5 /* Player.m */,
+				11BD55FC19178C3F002FDBC5 /* TicTacToe.h */,
+				11BD55FD19178C3F002FDBC5 /* TicTacToe.m */,
+				11BD55F919178A81002FDBC5 /* Coordinate.h */,
+				11BD55FA19178A81002FDBC5 /* Coordinate.m */,
 				11BD55D2191770FB002FDBC5 /* Images.xcassets */,
 				11BD55B9191770FB002FDBC5 /* Supporting Files */,
 			);
@@ -243,7 +260,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11BD55D1191770FB002FDBC5 /* Spaceship.png in Resources */,
 				11BD55D3191770FB002FDBC5 /* Images.xcassets in Resources */,
 				11BD55C9191770FB002FDBC5 /* Main_iPad.storyboard in Resources */,
 				11BD55C6191770FB002FDBC5 /* Main_iPhone.storyboard in Resources */,
@@ -266,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11BD55F8191787BF002FDBC5 /* Board.m in Sources */,
 				11BD55CF191770FB002FDBC5 /* MyScene.m in Sources */,
 				11BD55CC191770FB002FDBC5 /* ViewController.m in Sources */,
 				11BD55C3191770FB002FDBC5 /* AppDelegate.m in Sources */,
+				11BD55FB19178A81002FDBC5 /* Coordinate.m in Sources */,
+				11BD55FE19178C3F002FDBC5 /* TicTacToe.m in Sources */,
+				11BD560119178D4A002FDBC5 /* Player.m in Sources */,
 				11BD55BF191770FB002FDBC5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,9 +424,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TicTactToe/TicTactToe-Prefix.pch";
 				INFOPLIST_FILE = "TicTactToe/TicTactToe-Info.plist";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -418,9 +440,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TicTactToe/TicTactToe-Prefix.pch";
 				INFOPLIST_FILE = "TicTactToe/TicTactToe-Info.plist";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -486,6 +510,7 @@
 				11BD55EB191770FC002FDBC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11BD55EC191770FC002FDBC5 /* Build configuration list for PBXNativeTarget "TicTactToeTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +519,7 @@
 				11BD55EE191770FC002FDBC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
